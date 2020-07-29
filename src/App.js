@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Below is the import for functional components
+// import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import for class components
+import React, { Component } from 'react';
+// import people from people
+import People from './people'
+
+
+class App extends Component{
+
+  render () {
+    return (
+      <div className="App">
+        <h1>Jamie eats dirt</h1>
+        <p>Hi class! </p>
+        {/* importing the people component into JSX */}
+        {/* We pass data from one component do another with  props */}
+        {/* We pass props by giving our components attributes */}
+        <People name="Austin" age="22" favoriteFood="pizza" />
+        <People name="Saeed" age="29" favoriteFood="buffalo wings" />
+      </div>
+    )
+  }
 }
 
 export default App;
