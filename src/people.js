@@ -1,21 +1,39 @@
-import React, {Component} from 'react';
+import React from 'react';
+  
+// when making a fucntional component, props must be passed in as an argument
+const People = (props) => {
 
-class People extends Component{
-
-    render () {
+    
         // this gives me the value of props
-        console.log(this.props)
+        // console.log(props);
         // us destructuring on props
-        const { name, age, favoriteFood } = this.props
+        
+        const { arrayOfPeople } = props;
+
+        console.log(arrayOfPeople)
+
+        const listOfPeoplehtml = arrayOfPeople.map(person => {
+           
+            return person.age > 25? (
+                    <div className='person' key={person.id}>
+                        <div>Name: {person.name}</div>
+                        <div>Age: {person.age}</div>
+                        <div>Favorite food: {person.favoriteFood}</div>
+                    </div>
+                ) :
+                null
+            
+        }
+    )
+
         return (
+
         <div className="people">
-            <div>Name: {name}</div>
-            <div>Age: {age}</div>
-        <div>Favorite Food: {favoriteFood}</div>
+          { listOfPeoplehtml }
         </div>
         )
     }
 
-}
+
 
 export default People;
