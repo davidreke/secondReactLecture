@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/io/secondReactLectureJuly20/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/io/secondReactLectureJuly20/static/js/main.8af5bd0b.chunk.js",
-    "main.js.map": "/io/secondReactLectureJuly20/static/js/main.8af5bd0b.chunk.js.map",
-    "runtime-main.js": "/io/secondReactLectureJuly20/static/js/runtime-main.8f13ddcc.js",
-    "runtime-main.js.map": "/io/secondReactLectureJuly20/static/js/runtime-main.8f13ddcc.js.map",
-    "static/js/2.7af59a0c.chunk.js": "/io/secondReactLectureJuly20/static/js/2.7af59a0c.chunk.js",
-    "static/js/2.7af59a0c.chunk.js.map": "/io/secondReactLectureJuly20/static/js/2.7af59a0c.chunk.js.map",
-    "index.html": "/io/secondReactLectureJuly20/index.html",
-    "precache-manifest.ce3484cef06db6f73a4db616f45c4ee8.js": "/io/secondReactLectureJuly20/precache-manifest.ce3484cef06db6f73a4db616f45c4ee8.js",
-    "service-worker.js": "/io/secondReactLectureJuly20/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/io/secondReactLectureJuly20/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.7af59a0c.chunk.js.LICENSE.txt": "/io/secondReactLectureJuly20/static/js/2.7af59a0c.chunk.js.LICENSE.txt"
+    "main.css": "/secondReactLectureJuly20/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/secondReactLectureJuly20/static/js/main.e89a6a5b.chunk.js",
+    "main.js.map": "/secondReactLectureJuly20/static/js/main.e89a6a5b.chunk.js.map",
+    "runtime-main.js": "/secondReactLectureJuly20/static/js/runtime-main.74a27c1a.js",
+    "runtime-main.js.map": "/secondReactLectureJuly20/static/js/runtime-main.74a27c1a.js.map",
+    "static/js/2.7af59a0c.chunk.js": "/secondReactLectureJuly20/static/js/2.7af59a0c.chunk.js",
+    "static/js/2.7af59a0c.chunk.js.map": "/secondReactLectureJuly20/static/js/2.7af59a0c.chunk.js.map",
+    "index.html": "/secondReactLectureJuly20/index.html",
+    "precache-manifest.27a0397bc3b77ca758fadd71179ec026.js": "/secondReactLectureJuly20/precache-manifest.27a0397bc3b77ca758fadd71179ec026.js",
+    "service-worker.js": "/secondReactLectureJuly20/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/secondReactLectureJuly20/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.7af59a0c.chunk.js.LICENSE.txt": "/secondReactLectureJuly20/static/js/2.7af59a0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f13ddcc.js",
+    "static/js/runtime-main.74a27c1a.js",
     "static/js/2.7af59a0c.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.8af5bd0b.chunk.js"
+    "static/js/main.e89a6a5b.chunk.js"
   ]
 }
